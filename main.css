@@ -52,6 +52,11 @@
 	padding-bottom: 200px;
 }
 
+.blurb .disclaimer {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
 .blurb h2{
 	padding-top: 30px;
 	text-align: center;
