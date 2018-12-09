@@ -23,6 +23,29 @@
     background-color: #333; /* Dark background color */
 }
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
 /* Style the navigation bar links */
 .navbar a {
     float: left; /* Make sure that the links stay side-by-side */
@@ -35,12 +58,26 @@
 	margin-left: 20%;
 }
 
-
+@media (max-width: 550px) {
+    .navbar a {
+        margin-left: 8%;
+        width: 20%;
+    }
+}
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
     background-color: #ddd; /* Grey background color */
     color: black; /* Black text color */
+}
+
+.cv{
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
 }
 
 .blurb {
@@ -50,6 +87,13 @@
 	padding-right: 20%;
 	padding-left: 20%;
 	padding-bottom: 200px;
+}
+
+@media (max-width: 550px) {
+	.blurb{
+		padding-right: 10%;
+    	padding-left: 10%;
+	}
 }
 
 .blurb .disclaimer {
