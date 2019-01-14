@@ -25,24 +25,26 @@
 
 a:link {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: black;
+  background-color: #DDD;
   text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: black;
+  background-color: #DDD;
   text-decoration: underline;
 }
 
@@ -72,11 +74,12 @@ a:active {
 }
 
 .cv{
-    text-align: center;
+    text-align: right;
     text-decoration: none; /* Remove underline */
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
+    margin-right: 70px;
 
 }
 
