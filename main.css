@@ -69,18 +69,22 @@ a:active {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
+    background-color: #ddd; /* Grey background colour */
+    color: black; /* Black text colour */
 }
 
 .cv{
-    text-align: right;
+    text-align: center;
     text-decoration: none; /* Remove underline */
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-right: 70px;
+    margin-right: 10px;
+}
 
+.innerCV{
+    --width: 80px;
+    --background-color: #AAAAAA;
 }
 
 .blurb {
