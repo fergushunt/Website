@@ -113,6 +113,12 @@ a:active {
 	text-align: center;
 }
 
+.note{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
 .heading{
 	padding-top: 50px;
 	padding-bottom: -10px;
