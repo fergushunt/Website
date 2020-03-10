@@ -80,6 +80,7 @@ a:active {
     padding-bottom: 10px;
     padding-top: 20px;
     margin-right: 10px;
+    font-size: 12px;
 }
 
 .innerCV{
@@ -93,7 +94,7 @@ a:active {
 	padding-top: 20px;
 	padding-right: 20%;
 	padding-left: 20%;
-	padding-bottom: 200px;
+	padding-bottom: 20px;
 }
 
 @media (max-width: 550px) {
